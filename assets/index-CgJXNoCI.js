@@ -168,7 +168,7 @@ Error generating stack: `+e.message+`
     height: 55px;
     font-size: 20px;
   }
-`,sr=({roleDice:e,currentDice:t})=>(0,A.jsx)(A.Fragment,{children:(0,A.jsxs)(cr,{children:[(0,A.jsx)(`div`,{className:`dice`,onClick:e,children:(0,A.jsx)(`img`,{src:`./images/dice/dice_${t}.png`,alt:`dice`})}),(0,A.jsx)(`p`,{children:`Click on Dice to roll`})]})}),cr=qn.div`
+`,sr=({roleDice:e,currentDice:t})=>(0,A.jsx)(A.Fragment,{children:(0,A.jsxs)(cr,{children:[(0,A.jsx)(`div`,{className:`dice`,onClick:e,children:(0,A.jsx)(`img`,{src:`/react-dice-game/images/dice/dice_${t}.png`,alt:`dice`})}),(0,A.jsx)(`p`,{children:`Click on Dice to roll`})]})}),cr=qn.div`
   display: flex;
   flex-direction: column;
   align-items: center;
